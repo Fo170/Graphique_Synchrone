@@ -1,0 +1,34 @@
+{
+  "name": "Graphique_Synchrone",
+  "version": "1.0.0",
+  "description": "Bibliothèque header-only pour générer des graphiques Google Charts temps réel sur ESP8266/ESP32/Arduino",
+  "keywords": [
+    "graphique",
+    "google-charts",
+    "chart",
+    "esp8266",
+    "esp32",
+    "temps-reel",
+    "arduino",
+    "realtime",
+    "visualisation"
+  ],
+  "authors": [
+    {
+      "name": "Olivier FOURNET",
+      "url": "https://github.com/Fo170"
+    }
+  ],
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fo170/Graphique_Synchrone.git"
+  },
+  "homepage": "https://github.com/Fo170/Graphique_Synchrone",
+  "headers": ["Graphique_Synchrone.h"],
+  "platforms": ["espressif8266", "espressif32"],
+  "frameworks": ["arduino"],
+  "export": {
+    "include": ["Graphique_Synchrone.h", "exemple/Graphique_ESP8266/"]
+  }
+}
