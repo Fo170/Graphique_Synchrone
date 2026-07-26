@@ -26,9 +26,12 @@
   },
   "homepage": "https://github.com/Fo170/Graphique_Synchrone",
   "headers": ["Graphique_Synchrone.h"],
+  "build": {
+    "srcFilter": ["-<exemple/>"]
+  },
   "platforms": ["espressif8266", "espressif32"],
   "frameworks": ["arduino"],
   "export": {
-    "include": ["Graphique_Synchrone.h", "exemple/Graphique_ESP8266/"]
+    "include": ["Graphique_Synchrone.h"]
   }
 }
