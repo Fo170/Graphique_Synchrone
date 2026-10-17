@@ -1,6 +1,6 @@
 {
   "name": "Graphique_Synchrone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bibliothèque header-only pour générer des graphiques Google Charts temps réel sur ESP8266/ESP32/Arduino",
   "keywords": [
     "graphique",
