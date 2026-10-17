@@ -8,6 +8,9 @@
 #ifndef GRAPHIQUE_H
 #define GRAPHIQUE_H
 
+
+// Version de la librairie (source UNIQUE — agrégée par liste_lib.h)
+#define __GRAPHIQUE_SYNCHRONE_H_VERSION__ "1.0.0"
 #include <Arduino.h>
 
 // ============================================================
